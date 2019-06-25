@@ -1,0 +1,19 @@
+Package: chromium-wrapper
+Version: 0.1
+Architecture: amd64
+Maintainer: Aerian <wo199710@hotmail.com>
+Depends: chromium-browser, chromium-codecs-ffmpeg-extra
+Recommends: chromium-sandbox
+Suggests: chromium-l10n, chromium-shell, chromium-driver
+Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
+Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2), chromium
+Provides: gnome-www-browser, www-browser
+Built-Using: flot (= 0.8.3+dfsg-1), jquery (= 3.3.1~dfsg-3)
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the web browser component.
